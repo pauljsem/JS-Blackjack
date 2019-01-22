@@ -7,7 +7,7 @@ let placedBet;
 let dealerIsDone;
 let wallet = 1000;
 let weHaveAwinner;
-function Player (score, hand, name){
+function Player (score, hand, name){ //player constructor
   this.score = score;
   this.hand =[];
   this.name = "Player";
