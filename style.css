@@ -1,0 +1,107 @@
+body {
+  padding-top: 2%;
+  background-color: #33691E;
+  padding: 10%;
+}
+#cardContainer {
+display: show;
+  background-color: gray;
+}
+
+.wrapper {
+  text-align: center;
+}
+#playerCards {
+  background-color: #33691E;
+  text-align: center;
+}
+#dealerCards {
+  background-color: #33691E;  
+  text-align: center;
+}
+#play {
+  margin: 1%;
+}
+img {
+  height: 100px;
+  width: 74px;
+  background: white;
+  border: solid;
+  
+}
+#again{
+  display:none;
+  margin-top: 3%;
+}
+
+#hit{
+  display:none;
+}
+#stand{
+  display:none;
+  margin-top: 3%;
+}
+#playerScore {
+  display: none;
+}
+#dealerScore {
+  display: none;
+}
+#startOver{
+  display:none;
+   margin-top: 3%;
+}
+.winnerText{
+  font-family: 'Acme',  sans-serif;
+  font-weight:bold;
+}
+#walletPrefix, #walletValue{
+ 
+  color: white;
+  background-color:#000000;
+  margin-bottom: 1%;
+  font-size: 1.5em;
+}
+
+#betBox, #betButton{
+display: none; 
+}
+.bet{
+  
+}
+#shuffleDiv{
+display: none;
+  text-align:center;
+}
+#walletPrefix {
+  display: none;
+}
+
+.container {
+  text-align: left;
+}
+#title{
+  display: none
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #33691E;
+  padding: 10px;
+  margin-top: 2%;
+}
+
+.grid-item {
+  background-color: #33691E;
+
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#yourScore{
+  
+}
+#theirScore{
+  
+}
