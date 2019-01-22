@@ -1,0 +1,43 @@
+<div id = "playerWins"></div>
+<div id = "dealerWins"></div>
+
+<div id = "headerID"><p style = 'font-size: 2.5em' class = 'text-center'>Click to play BlackJack!</p>
+</div>
+
+<div class = "grid-container text-center">
+  <div id = "walletPrefix"><p>Your Wallet:</p></div>
+  <div id = "walletValue">
+  </div></div>
+<div class = "wrapper">
+<input class ="bet"  id="betBox" type="number"><div id = "shuffleDiv"><h2>Shuffling deck...</h2></div>
+<input type="button" onclick="bet();" class = 'bet' id="betButton" value="Place Bet"/></div><br>
+<div class = "wrapper">
+<button id = "play" class = "btn btn-info" onClick = "play();">Play</button>
+  </div> 
+</div>
+<div class="grid-container">
+  <div class="grid-item" id = "playerCards">Player's Cards</div>
+  <div class="grid-item" id = "dealerCards">Dealer's Cards</div>
+  <div class = "grid-item" id = "yourScore"></div>
+    <div class = "grid-item" id = "theirScore"></div>
+</div> 
+<div class = "row">
+<div id = "playerScoreBox" class ="col-sm-6" ></div>
+<div id = "dealerScoreBox"class ="col-sm-6"></div>
+</div>
+<div class = "wrapper text-center">
+<br><br>
+  <button id = "hit" onClick = "hit(); count();" class = "btn btn-primary">HIT</button>
+</div>
+<div class = "wrapper text-center" id = "stand">
+  <div class = 
+"btn btn-danger">STAND</button>
+</div></div>
+<div class = "wrapper text-center" id = "again">
+  <button class = 
+"btn btn-danger" onClick ="play();">Bet Again</button>  
+</div>
+<div id = "hit"></div>
+<div class = "wrapper text-center">
+  <button id = "stand">Stand</button>
+</div>
