@@ -204,11 +204,10 @@ let dealersTurn = () => {
  
   while(dealer.score <= 17) {
     index++; //track the index
-    // dealer.score = getScore(dealer.hand);
     dealer.hand.push(newDeck.cards.pop());
-    dealer.score+=dealer.hand[index].value; //update score
+    dealer.score+=dealer.hand[index].value; 
     $("<div>"+dealer.hand[index].name+" of   "+dealer.hand[index].suit+"</div>").appendTo("#dealerCards");  //add cards
-    //dealer.score = getScore(dealer.hand);
+    dealer.score = getScore(dealer.hand);//update score
    
   }
 window.setTimeout(checkScore, 1500);
